@@ -1,0 +1,166 @@
+body {
+	font-family: sans-serif;
+}
+
+.app-name {
+	font-size: 22pt;
+	
+	text-align: center;
+}
+
+.container-div {
+	margin: 25px;
+	padding: 20px;
+	
+	background-color: #E3F2FD;
+}
+
+.contained {
+	float: left;
+	height: 70%;
+	width: 33%;
+	
+	text-align: center;
+}
+
+.clear-br {
+	clear: both;
+}
+
+.reset-button {
+	height: 50px;
+	
+	background-color: #E91E63;
+	
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px grey;
+	
+	text-color: white;
+}
+
+.reset-button:hover {
+	background-color: #F06292;
+}
+
+.reset-button:active:hover {
+	background-color: #C2185B;
+}
+
+.win-banner {
+	margin-top: 210px;
+}
+
+.win-message {
+	font-size: 36pt;
+}
+
+.avatar {
+	height: 100px;
+	width: 100px;
+}
+
+.player-avatar {
+	float: left;
+}
+
+.cpu-avatar {
+	float: right;
+}
+
+.name {
+	font-size: 16pt;
+}
+
+.score {
+	font-size: 14pt;
+}
+
+.player-stats-text {
+	margin-left: 20px;
+	float: left;
+	
+	text-align: left;
+}
+
+.cpu-stats-text {
+	margin-right: 20px;
+	float: right;
+	
+	text-align: right;
+}
+
+.player-throw-picker {
+	clear: both;
+	width: 100px;
+	height: 450px;
+	margin: auto;
+}
+
+.throw-button {
+	background-size: 100px 100px;
+	background-position: center;
+	
+	height: 100px;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	border: none;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.throw-button:not(.disabled):not(.chosen):hover {
+	box-shadow: 0px 0px 10px black;
+}
+
+.reset-button:focus, .throw-button:focus {
+	/*
+		to remove ugly square blue outline when
+		button is pressed
+	*/
+	outline: 0;
+}
+
+.cpu-throw-picker {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 230px;
+	clear: both;
+}
+
+.rock {
+	background-image: url(img/rock.png);
+}
+
+.paper {
+	background-image: url(img/paper.png);
+}
+
+.scissors {
+	background-image: url(img/scissors.png);
+}
+
+.question {
+	background-image: url(img/question.png);
+}
+
+.chosen {
+	box-shadow: 0px 0px 20px #E91E63;
+}
+
+.chosen-transition {
+	transition: all 0.5s ease-out;
+}
+
+.radio-container {
+	margin-top: 25px;
+}
+
+.credits {
+	font-size: 8pt;
+	
+	text-align: center;
+}
+
