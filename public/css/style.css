@@ -131,19 +131,19 @@ body {
 }
 
 .rock {
-	background-image: url(img/rock.png);
+	background-image: url(/img/rock.png);
 }
 
 .paper {
-	background-image: url(img/paper.png);
+	background-image: url(/img/paper.png);
 }
 
 .scissors {
-	background-image: url(img/scissors.png);
+	background-image: url(/img/scissors.png);
 }
 
 .question {
-	background-image: url(img/question.png);
+	background-image: url(/img/question.png);
 }
 
 .chosen {
